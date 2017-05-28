@@ -1,16 +1,33 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1.5em 2em;
+    font: 13px arial, sans-serif;
+}
+
+.header-item {
+    margin-left: 1.4em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .logo {
     width: 421px;
     height: 163px;
-    margin: 0em auto;
 }
 
 .search-box {
@@ -22,7 +39,7 @@ body {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     border: 1px solid rgba(0,0,0,0.16);
     border-radius: 2px;
-    margin: 1em auto;
+    margin: 1em;
     background-image: url(http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png);
     background-repeat:no-repeat;
     background-size: 1em;
@@ -52,7 +69,7 @@ body {
 }
 
 .languages {
-    margin: 1.5em auto;
+    margin: 1.5em;
     font: 13px arial, sans-serif;
 }
 
