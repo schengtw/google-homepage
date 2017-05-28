@@ -44,3 +44,12 @@ body {
     border-radius: 2px;
     border: none;
 }
+
+.languages {
+    margin: 1.5em auto;
+    font: 13px arial, sans-serif;
+}
+
+.languages a {
+    text-decoration: none;
+}
