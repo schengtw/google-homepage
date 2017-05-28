@@ -7,10 +7,16 @@ body {
     padding: 0;
 }
 
+.logo {
+    width: 421px;
+    height: 163px;
+    margin: 0em auto;
+}
+
 .search-box {
     width: 30em;
     font: 16px arial, sans-serif;
-    padding: 1.0em 1.4em;
+    padding: 0.9em 1.4em;
     outline: none;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
     border: 1px solid rgba(0,0,0,0.16);
@@ -24,7 +30,7 @@ body {
     justify-content: center;
 }
 
-.search-button{
+.search-button {
     margin: 1em;
     font: 13px arial, sans-serif;
     font-weight: bold;
