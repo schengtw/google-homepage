@@ -92,3 +92,32 @@ search-box:hover, .search-box:focus {
     height: 5em;
 }
 
+footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border-top: 1px solid #e4e4e4;
+   padding: 1.0em 2em;
+   line-height: 40em;
+   background: #f2f2f2;
+   font: 13px arial,sans-serif;
+   color: rgb(102, 102, 102);
+}
+
+.footer-left {
+   display: flex;
+   flex-direction: row;
+}
+
+.footer-left .footer-item {
+    margin-right: 2em;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right .footer-item {
+    margin-left: 2em;
+}
