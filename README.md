@@ -7,3 +7,6 @@ Wish me luck!
 
 To see the result, click this:
 https://rawgit.com/schengtw/google-homepage/master/index.html
+
+This is a second homepage I made for practice:
+https://cdn.rawgit.com/schengtw/google-homepage/practice/practice.html
